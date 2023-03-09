@@ -1,0 +1,95 @@
+@media screen and (min-width:375px){
+  body{
+    background-color:hsl(212, 45%, 89%);
+  }
+  container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:100px;
+  }
+  .attribution {
+    font-size: 15px; text-align: center;
+   }
+  .attribution a {
+     color: hsl(228, 45%, 44%);
+     }
+  .card{
+    background-color:hsl(0, 0%, 100%);
+    width:250px;
+    border:1px;
+    border-radius:15px;
+    padding:20px;
+  }
+  .img-qr{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-qr img{
+    width:250px;
+    border-radius:11px;
+  }
+  .card-text p{
+    font-family: 'Outfit', sans-serif;
+     text-align: center;
+     font-size:15px;
+    }
+   .paragraph1{
+    font-weight: 700;
+  }
+   .paragraph2{
+    font-weight: 400;color:hsl(220, 15%, 55%);
+  }
+}
+
+@media screen and (max-width: 1440px){
+
+  container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:100px;
+  }
+  body{
+    background-color:hsl(212, 45%, 89%);
+  }
+  .attribution {
+    font-size: 11px; text-align: center;
+   }
+  .attribution a {
+     color: hsl(228, 45%, 44%);
+     }
+  .card{
+    background-color:hsl(0, 0%, 100%);
+    width:250px;
+    border:1px;
+    border-radius:15px;
+    padding:20px;
+  }
+  .img-qr{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-qr img{
+    width:250px;
+    border-radius:15px;
+  }
+  .card-text p{
+    font-family: 'Outfit', sans-serif;
+     text-align: center;
+     font-size:15px;
+  }
+   .paragraph1{
+    font-weight: 700;
+  }
+   .paragraph2{
+    font-weight: 400;color:hsl(220, 15%, 55%);
+   
+  }
+
+}
+
+
+
